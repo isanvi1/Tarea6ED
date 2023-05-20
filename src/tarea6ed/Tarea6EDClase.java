@@ -1,12 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package tarea6ed;
 
 /**
- *
- * @author Isanvi1
+ * Esta es la clase principal para realizar el cálculo del descuento en un producto.
+ * 
+ * @author Ignacio Sánchez Vilchez
  */
 public class Tarea6EDClase {
     private static final double DESCUENTO_POR_DEFECTO = 0.95;
@@ -14,6 +11,12 @@ public class Tarea6EDClase {
     private static final int DESCUENTO_POR_CANTIDAD_PRODUCTO = 5;
     private static final int MIN_CANTIDAD_DESCUENTO = 3;
 
+    /**
+     * Aplica el descuento al precio del producto en base a la cantidad y muestra el total a pagar.
+     *
+     * @param precioProducto el precio del producto sin descuento
+     * @param numProductos la cantidad de productos
+     */
     public void aplicarDescuento(double precioProducto, int numProductos) {
         double total;
         if (numProductos > MIN_CANTIDAD_DESCUENTO) {
@@ -26,11 +29,15 @@ public class Tarea6EDClase {
             total = precioProducto * DESCUENTO_POR_DEFECTO;
             screenOutput(total);
         }
-
     }
 
+    /**
+     * Muestra el resultado del cálculo en la pantalla.
+     *
+     * @param total el total a pagar con descuento
+     */
     private void screenOutput(double total) {
-        System.out.println("El total a pagar es:" + total);
+        System.out.println("El total a pagar es: " + total);
         System.out.println("Enviado");
     }
 }
