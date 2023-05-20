@@ -1,17 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package tarea6ed;
 
 /**
- *
+ * Clase principal para ejecutar el programa de descuento en productos.
+ * 
  * @author Isanvi1
  */
 public class Tarea6ED {
 
     /**
-     * @param args the command line arguments
+     * Método principal que crea una instancia de Tarea6EDClase y llama al método aplicarDescuento.
+     * 
+     * @param args los argumentos de la línea de comandos
      */
     public static void main(String[] args) {
            
@@ -21,3 +20,4 @@ public class Tarea6ED {
     }
     
 }
+

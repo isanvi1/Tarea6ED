@@ -3,7 +3,7 @@ package tarea6ed;
 /**
  * Esta es la clase principal para realizar el cálculo del descuento en un producto.
  * 
- * @author Ignacio Sánchez Vilchez
+ * @author Isanvi1
  */
 public class Tarea6EDClase {
     private static final double DESCUENTO_POR_DEFECTO = 0.95;
