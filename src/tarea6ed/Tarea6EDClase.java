@@ -1,18 +1,21 @@
 package tarea6ed;
 
 /**
- * Esta es la clase principal para realizar el cálculo del descuento en un producto.
- * 
+ * Esta es la clase principal para realizar el cálculo del descuento en un
+ * producto.
+ *
  * @author Isanvi1
  */
 public class Tarea6EDClase {
+
     private static final double DESCUENTO_POR_DEFECTO = 0.95;
     private static final double DESCUENTO_POR_PRODUCTO = 0.8;
     private static final int DESCUENTO_POR_CANTIDAD_PRODUCTO = 5;
     private static final int MIN_CANTIDAD_DESCUENTO = 3;
 
     /**
-     * Aplica el descuento al precio del producto en base a la cantidad y muestra el total a pagar.
+     * Aplica el descuento al precio del producto en base a la cantidad y
+     * muestra el total a pagar.
      *
      * @param precioProducto el precio del producto sin descuento
      * @param numProductos la cantidad de productos
